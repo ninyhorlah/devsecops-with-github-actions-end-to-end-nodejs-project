@@ -19,8 +19,8 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
         args: >
-          -Dsonar.organization= devsecops-with-github-actions-end-to-end-nodejs-projectt
-          -Dsonar.projectKey= devsecops-with-github-actions-end-to-end-nodejs-projectt
+          -Dsonar.organization=devsecops-with-github-actions-end-to-end-nodejs-projectt
+          -Dsonar.projectKey=devsecops-with-github-actions-end-to-end-nodejs-projectt
   security:
     runs-on: ubuntu-latest
     needs: build
